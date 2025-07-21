@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo-with-list">
+            <h2 class="logo">HA<span>SS</span>AN</h2>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        </div>
+        
+        <a href="#contact" class="talk">let's talk</a>
+    </header>
+    <div class="main">
+        <div class="info">
+        <h2>hi, i'm <strong>hassan ahmed</strong></h2>
+        <h4>front end developer</h4>
+        <p>best design for best client don't wait , make your website now with hassan with best salary</p>
+        <div class="buttons">
+            <a href="#contact" class="btn-1">hire me</a>
+            <a href="#about" class="btn-2">all knowledge</a>
+        </div>
+        <div class="socials">
+            <a target="_blank" href="https://www.facebook.com/hassan.ahmed.552803/"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="wa.me/+201289773800n "><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        </div>
+        <div class="img"><img src="./3270c754-8506-4930-82ef-de358da7bc76-removebg-preview.png" alt=""></div>
+        
+
+    </div>
+    <div class="services" id="services">
+        <div class="title">
+            <h2>services</h2>
+           
+        </div>
+
+        <div class="serv-container">
+            <div class="skill one">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2>search</h2>
+                <p>search for best sources</p>                
+            </div>
+            <div class="skill two">
+                <i class="fa-solid fa-pencil"></i>
+                <h2>design</h2>
+                <p>design best pages for you</p>
+            </div>
+            <div class="skill three">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>program</h2>
+                <p>program your web fast</p>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+         <div class="title">
+            <h2 style="color: #220446;">about us</h2>
+           
+        </div>
+        <div class="about-container">
+            <p>i'm hassan ahmed mohamed ,i'm frontend developer , i started learning frontend 5 years ago , i tried hard and god helped me , this is my dream job and i hope that i'll success in it</p>
+            <img src="snapedit_1752950009821-removebg-preview.png" alt="">
+
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+         <div class="title">
+            <h2 style="color: #e6e8e8;">contact us</h2>
+        </div>
+
+            <form>
+                <div class="contact-container">
+                    <div class="email"> <label for="#email">email</label>
+                    <input type="email" placeholder="email.." required></div>
+                   
+                    <div class="name"> <label for="#name">name</label>
+                    <input type="text" placeholder="name.." required></div>
+                   
+                       
+                </div>
+
+                   
+                    <div class="submit">
+                            <input class="i" type="submit">
+                    </div>
+                    
+            </form>
+            <div class="medias">
+                <div class="box">
+                <a target="_blank" href="https://www.facebook.com/hassan.ahmed.552803/"><i class="fa-brands fa-facebook"></i></a>
+                    <h3>facebook</h3>
+                    <p>offical page</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>phone</h3>
+                    <p>01289773800</p>
+                </div>
+               
+            </div>
+</div>
+
+
+   
+    
+    <footer>
+        <h2><< copyright:: hassan@abd-razak >></h2>
+    </footer>
+    <script>
+        ScrollReveal({
+            reset:false,
+            distance:'80px',
+            duration:2500,
+            delay:400,
+        })
+        ScrollReveal().reveal('.title , .info ,.one ,.email',{delay:700, origin:'left'});
+        ScrollReveal().reveal('header ,.two , .submit',{delay:700, origin:'top'});
+        ScrollReveal().reveal('.img ,.three , .name',{delay:700, origin:'right'});
+        ScrollReveal().reveal('.about-container , .medias',{delay:700, origin:'bottom'});
+        
+
+
+
+    </script>
+</body>
+</html>
